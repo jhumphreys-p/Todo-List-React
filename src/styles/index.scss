@@ -1,13 +1,74 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Asap:ital@1&display=swap');
 
-/* 
+body {
+    margin-top: -2rem;
+    height: 100%;
+    //background-image: url();
+    background: url(https://hipertextual.com/files/2014/11/dragon-ball-hairstyles-2.jpg);
+    background-size: cover;
+    	font-family: 'Permanent Marker';
+		font-size: 1.6em;
+		color: white;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.blackboard {
+    position: relative;
+    width: 40rem;
+    margin: 7% auto;
+    box-shadow: 0px 0px 6px 5px rgba(58, 18, 13, 0), 0px 0px 0px 2px black, 0px 0px 0px 4px #b80000, 3px 4px 8px 5px rgba(0, 0, 0, 0.5);
+    background-color: Orange;
+}
 
-*/
+h1 {
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    vertical-align: middle;
+    background-color: orange;
+    border: none;
+    text-align: center;
+    font-family: 'Permanent Marker';
+    color: white;
+    font-size: 1.6em;
+    line-height: .6em;
+    outline: none;
+}
+.todoList{
+    display: flex;
+    justify-content: center;
+   
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 2.5rem;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0 0.5rem 1rem;
+    
+}
+
+i{
+    background-color: none;
+    color: black;
+}
+button {
+    justify-content: end;
+}
+
+.counter {
+    text-align: center;
+    margin-left: 0 1rem 0 1rem;
+}
